@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM python:3.14-slim
 
 # Create non-root user early
 RUN groupadd -r mcpuser && useradd -r -g mcpuser -u 1000 mcpuser
